@@ -1,8 +1,6 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using AgileConfig.Server.Common;
 using System;
 using System.Collections.Generic;
-using System.Text;
 
 namespace AgileConfig.Server.Common.Tests
 {

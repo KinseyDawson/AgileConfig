@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace Agile.Config.Protocol
+﻿namespace Agile.Config.Protocol
 {
     public class ActionConst
     {

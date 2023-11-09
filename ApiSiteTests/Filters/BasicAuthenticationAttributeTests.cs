@@ -1,14 +1,9 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using AgileConfig.Server.Apisite.Filters;
-using System;
-using System.Collections.Generic;
-using System.Text;
 using Microsoft.AspNetCore.Http;
 using Moq;
 using AgileConfig.Server.IService;
 using AgileConfig.Server.Data.Entity;
 using System.Threading.Tasks;
-using System.Net;
 using AgileConfig.Server.Service;
 
 namespace AgileConfig.Server.Apisite.Filters.Tests

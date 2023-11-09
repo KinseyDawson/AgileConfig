@@ -1,8 +1,5 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using AgileConfig.Server.Data.Freesql;
 using System;
-using System.Collections.Generic;
-using System.Text;
 using FreeSql;
 using AgileConfig.Server.Data.Entity;
 

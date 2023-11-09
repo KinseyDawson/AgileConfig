@@ -1,7 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Threading.Tasks;
-using Agile.Config.Protocol;
 using AgileConfig.Server.Common;
 using AgileConfig.Server.Data.Entity;
 using AgileConfig.Server.Data.Freesql;

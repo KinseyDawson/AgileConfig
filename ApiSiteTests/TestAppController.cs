@@ -1,5 +1,3 @@
-using AgileConfig.Server.Apisite.Controllers;
-using AgileConfig.Server.Apisite.Controllers.api;
 using AgileConfig.Server.Apisite.Models;
 using AgileConfig.Server.Data.Entity;
 using AgileConfig.Server.IService;
@@ -8,7 +6,6 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Moq;
 using System;
 using System.Collections.Generic;
-using System.Text.Json;
 using System.Threading.Tasks;
 
 namespace ApiSiteTests
@@ -38,7 +35,7 @@ namespace ApiSiteTests
             Assert.IsInstanceOfType(result, typeof(JsonResult));
             var jr = result as JsonResult;
             Assert.IsNotNull(jr.Value);
-            Assert.IsTrue(jr.Value.ToString().Contains("Ó¦ÓÃIdÒÑ´æÔÚ£¬ÇëÖØÐÂÊäÈë"));
+            Assert.IsTrue(jr.Value.ToString().Contains("Ó¦ï¿½ï¿½Idï¿½Ñ´ï¿½ï¿½Ú£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"));
             App nullApp = null;
 
             appService.Setup(s => s.GetAsync("02")).ReturnsAsync(nullApp);
@@ -51,7 +48,7 @@ namespace ApiSiteTests
             Assert.IsInstanceOfType(result, typeof(JsonResult));
             jr = result as JsonResult;
             Assert.IsNotNull(jr.Value);
-            Assert.IsTrue(jr.Value.ToString().Contains("ÐÂ½¨Ó¦ÓÃÊ§°Ü£¬Çë²é¿´´íÎóÈÕÖ¾"));
+            Assert.IsTrue(jr.Value.ToString().Contains("ï¿½Â½ï¿½Ó¦ï¿½ï¿½Ê§ï¿½Ü£ï¿½ï¿½ï¿½é¿´ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö¾"));
 
             appService.Setup(s => s.AddAsync(It.IsAny<App>())).ReturnsAsync(true);
             appService.Setup(s => s.AddAsync(It.IsAny<App>(), It.IsAny<List<AppInheritanced>>())).ReturnsAsync(true);
@@ -64,7 +61,7 @@ namespace ApiSiteTests
             Assert.IsInstanceOfType(result, typeof(JsonResult));
             jr = result as JsonResult;
             Assert.IsNotNull(jr.Value);
-            Assert.IsFalse(jr.Value.ToString().Contains("ÐÂ½¨Ó¦ÓÃÊ§°Ü£¬Çë²é¿´´íÎóÈÕÖ¾"));
+            Assert.IsFalse(jr.Value.ToString().Contains("ï¿½Â½ï¿½Ó¦ï¿½ï¿½Ê§ï¿½Ü£ï¿½ï¿½ï¿½é¿´ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö¾"));
         }
     }
 }

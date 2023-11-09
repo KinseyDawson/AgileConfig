@@ -49,9 +49,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="logs\" />
     <Folder Include="Views\Shared" />
-    <Folder Include="wwwroot\ui\" />
   </ItemGroup>
 
   <ProjectExtensions><VisualStudio><UserProperties appsettings_1json__JsonSchema="" /></VisualStudio></ProjectExtensions>

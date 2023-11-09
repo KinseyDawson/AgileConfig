@@ -1,8 +1,5 @@
 ﻿using AgileConfig.Server.Data.Entity;
 using FreeSql;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace AgileConfig.Server.Data.Freesql
 {

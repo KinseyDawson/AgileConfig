@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace AgileConfig.Server.IService
+﻿namespace AgileConfig.Server.IService
 {
     public interface IEventRegister
     {

@@ -1,14 +1,11 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using AgileConfig.Server.Service;
 using System;
 using System.Collections.Generic;
-using System.Text;
 using FreeSql;
 using AgileConfig.Server.Data.Freesql;
 using AgileConfig.Server.Data.Entity;
 using System.Threading.Tasks;
 using AgileConfig.Server.IService;
-using System.Runtime.CompilerServices;
 using Microsoft.Extensions.Caching.Memory;
 using Moq;
 

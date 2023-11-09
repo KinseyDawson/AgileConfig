@@ -1,5 +1,4 @@
-﻿using System.Collections.Generic;
-using Agile.Config.Protocol;
+﻿using Agile.Config.Protocol;
 
 namespace AgileConfig.Server.Apisite.Controllers.api.Models
 {

@@ -2,10 +2,7 @@
 using AgileConfig.Server.Data.Freesql;
 using AgileConfig.Server.IService;
 using System;
-using System.Collections.Generic;
 using System.Dynamic;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 using AgileConfig.Server.Common;
 using Microsoft.Extensions.Logging;

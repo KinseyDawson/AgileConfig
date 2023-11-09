@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace AgileConfig.Server.Common
+﻿namespace AgileConfig.Server.Common
 {
     public interface IEntity
     {

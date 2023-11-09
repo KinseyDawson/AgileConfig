@@ -1,18 +1,5 @@
-using AgileConfig.Server.Apisite.Controllers;
-using AgileConfig.Server.Apisite.Controllers.api;
-using AgileConfig.Server.Apisite.Models;
-using AgileConfig.Server.Data.Entity;
-using AgileConfig.Server.IService;
-using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Moq;
-using System;
-using System.Collections.Generic;
 using System.Threading.Tasks;
-using Microsoft.AspNetCore.Authentication;
-using Microsoft.Extensions.DependencyInjection;
-using Microsoft.AspNetCore.Mvc.ViewFeatures;
 
 namespace ApiSiteTests
 {
@@ -82,7 +69,7 @@ namespace ApiSiteTests
             //var vr = act as ViewResult;
             //Assert.IsNotNull(vr);
             //var msg = vr.ViewData["ErrorMessage"];
-            //Assert.AreEqual("ÃÜÂë²»ÄÜÎª¿Õ", msg);
+            //Assert.AreEqual("ï¿½ï¿½ï¿½ë²»ï¿½ï¿½Îªï¿½ï¿½", msg);
             //act = await ctrl.InitPassword(new InitPasswordVM
             //{
             //    password = "1",
@@ -92,7 +79,7 @@ namespace ApiSiteTests
             //vr = act as ViewResult;
             //Assert.IsNotNull(vr);
             //msg = vr.ViewData["ErrorMessage"];
-            //Assert.AreEqual("ÃÜÂë²»ÄÜÎª¿Õ", msg);
+            //Assert.AreEqual("ï¿½ï¿½ï¿½ë²»ï¿½ï¿½Îªï¿½ï¿½", msg);
             //act = await ctrl.InitPassword(new InitPasswordVM
             //{
             //    password = "",
@@ -102,7 +89,7 @@ namespace ApiSiteTests
             //vr = act as ViewResult;
             //Assert.IsNotNull(vr);
             //msg = vr.ViewData["ErrorMessage"];
-            //Assert.AreEqual("ÃÜÂë²»ÄÜÎª¿Õ", msg);
+            //Assert.AreEqual("ï¿½ï¿½ï¿½ë²»ï¿½ï¿½Îªï¿½ï¿½", msg);
 
             //model = new InitPasswordVM
             //{
@@ -114,7 +101,7 @@ namespace ApiSiteTests
             //vr = act as ViewResult;
             //Assert.IsNotNull(vr);
             //msg = vr.ViewData["ErrorMessage"];
-            //Assert.AreEqual("ÃÜÂë×î³¤²»ÄÜ³¬¹ý50Î»", msg);
+            //Assert.AreEqual("ï¿½ï¿½ï¿½ï¿½ï¿½î³¤ï¿½ï¿½ï¿½Ü³ï¿½ï¿½ï¿½50Î»", msg);
 
             //act = await ctrl.InitPassword(new InitPasswordVM
             //{
@@ -125,7 +112,7 @@ namespace ApiSiteTests
             //vr = act as ViewResult;
             //Assert.IsNotNull(vr);
             //msg = vr.ViewData["ErrorMessage"];
-            //Assert.AreEqual("ÊäÈëµÄÁ½´ÎÃÜÂë²»Ò»ÖÂ", msg);
+            //Assert.AreEqual("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ë²»Ò»ï¿½ï¿½", msg);
 
             //settingService.Setup(s => s.HasSuperAdminPassword()).ReturnsAsync(true);
             //act = await ctrl.InitPassword(new InitPasswordVM
@@ -137,7 +124,7 @@ namespace ApiSiteTests
             //vr = act as ViewResult;
             //Assert.IsNotNull(vr);
             //msg = vr.ViewData["ErrorMessage"];
-            //Assert.AreEqual("ÃÜÂëÒÑ¾­ÉèÖÃ¹ý£¬²»ÐèÒªÔÙ´ÎÉèÖÃ", msg);
+            //Assert.AreEqual("ï¿½ï¿½ï¿½ï¿½ï¿½Ñ¾ï¿½ï¿½ï¿½ï¿½Ã¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Òªï¿½Ù´ï¿½ï¿½ï¿½ï¿½ï¿½", msg);
 
             //settingService.Setup(s => s.HasSuperAdmin()).ReturnsAsync(false);
             //settingService.Setup(s => s.HasSuperAdmin(It.IsAny<string>())).ReturnsAsync(false);
@@ -150,7 +137,7 @@ namespace ApiSiteTests
             //vr = act as ViewResult;
             //Assert.IsNotNull(vr);
             //msg = vr.ViewData["ErrorMessage"];
-            //Assert.AreEqual("³õÊ¼»¯ÃÜÂëÊ§°Ü", msg);
+            //Assert.AreEqual("ï¿½ï¿½Ê¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê§ï¿½ï¿½", msg);
 
             //settingService.Setup(s => s.SetSuperAdminPassword(It.IsAny<string>())).ReturnsAsync(true);
             //act = await ctrl.InitPassword(new InitPasswordVM

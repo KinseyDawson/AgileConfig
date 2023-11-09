@@ -1,5 +1,4 @@
 ﻿using FreeSql.DataAnnotations;
-using System;
 
 namespace AgileConfig.Server.Data.Entity
 {

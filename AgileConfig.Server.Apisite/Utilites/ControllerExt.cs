@@ -1,6 +1,5 @@
 ﻿using AgileConfig.Server.Common;
 using AgileConfig.Server.IService;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System.Linq;
 using System.Threading.Tasks;

@@ -1,6 +1,4 @@
 ﻿using AgileConfig.Server.Common;
-using Microsoft.Extensions.Configuration;
-using System;
 using System.Collections.Generic;
 
 namespace AgileConfig.Server.Data.Freesql
