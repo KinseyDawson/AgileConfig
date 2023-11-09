@@ -265,3 +265,5 @@ __pycache__/
 /AgileConfig.Server.Apisite/agile_config.db-wal
 /AgileConfig.Server.Apisite/agile_config.db-shm
 /AgileConfig.Server.Apisite/agile_config_TEST.db
+
+.DS_Store
